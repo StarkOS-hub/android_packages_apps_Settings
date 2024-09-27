@@ -62,7 +62,7 @@ public class DarkUIPreferenceController extends TogglePreferenceController imple
     @Override
     public boolean isChecked() {
          return (mContext.getResources().getConfiguration().uiMode
-                 & Configuration.UI_MODE_NIGHT_YES) == 0;
+                 & Configuration.UI_MODE_NIGHT_YES) != 0;
     }
 
     @Override
