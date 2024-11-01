@@ -49,7 +49,7 @@
         android:key="lineage_version"
         android:title="@string/lineage_version"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
     <!-- Security patch -->
